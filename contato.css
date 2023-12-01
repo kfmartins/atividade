@@ -1,0 +1,14 @@
+input[type="text"], textarea {
+    width:100% ;
+    border: 1px solid rgba(0, 0, 0, 0.867);
+    padding: 10px;
+    border-radius: 4px;
+    transition: border-color 0.3;
+
+}
+
+input[type="text"]:focus,textarea:focus {
+    border-color:rgba(30, 237, 16, 0.867);
+    box-shadow: 0 0 5px rgba(6, 97, 0, 0.867);
+    outline: none;
+}
